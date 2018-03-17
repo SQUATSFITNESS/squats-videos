@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { MatButtonModule, MatSelectModule, MatInputModule, MatToolbarModule, MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
@@ -14,7 +15,8 @@ import { appRoutes } from './app.routes';
       appRoutes,
       {}
     ),
-    BrowserModule
+    BrowserModule,
+    MatButtonModule, MatSelectModule, MatInputModule, MatToolbarModule, MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
