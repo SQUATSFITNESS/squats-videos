@@ -72,7 +72,7 @@ export default [
     date: '2017-1-25'
   },
   {
-    description: '- Busting some Myths. Body types. Diet considerations. How to start a diet , how to stay motivated. Calculating your macros (brief)',
+    description: 'English session. Busting some Myths. Body types. Diet considerations. How to start a diet , how to stay motivated. Calculating your macros (brief)',
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1351197888272853/',
     postedBy: 'JC',
     date: '2016-12-9'
@@ -148,5 +148,29 @@ export default [
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1369131359812839/',
     postedBy: 'JC',
     date: '2016-12-24'
+  },
+  {
+    description: 'Gm diet , metabolism explained',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1349695775089731/',
+    postedBy: 'JC',
+    date: '2016-12-8'
+  },
+  {
+    description: 'ATP, metabolism, creatine basics',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1370749936317648/',
+    postedBy: 'JC',
+    date: '2016-12-26'
+  },
+  {
+    description: 'Muscle fibre types, athlete training program design considerations',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1374387155953926/',
+    postedBy: 'JC',
+    date: '2016-12-30'
+  },
+  {
+    description: 'Metabolic Damage and Reverse Dieting and their Correlation',
+    url: 'https://www.facebook.com/Anikethh/videos/g.141518356380042/10212512595946916/',
+    postedBy: 'Aniketh Shetty',
+    date: '2017-5-11'
   }
 ];
