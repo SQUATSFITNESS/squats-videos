@@ -5,3 +5,13 @@
   max-width: 500px;
   width: 90%;
 }
+
+.posted-by {
+  color: gray;
+  font-size: 14px;
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
