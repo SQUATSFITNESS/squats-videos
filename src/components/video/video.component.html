@@ -1,3 +1,7 @@
 <div>
-    <a target="_blank" href="https://www.facebook.com/jitendra.chouksey.7/videos/1404862262860194/" >Circadian Rhythm, REM, T/C ratio</a>
+    <a target="_blank" href="{{ video.url }}" >{{ video.description }}</a>
+    <div>
+      <span class="posted-by">by {{video.postedBy}}</span>
+      <span class="date">on {{ video.date | date: 'd MMM yyyy' }}</span>
+    </div>
 </div>

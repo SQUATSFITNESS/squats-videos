@@ -16,7 +16,7 @@ export class SearchVideoComponent implements OnInit {
 
   constructor(private videoService: VideoService) {
     this.searchText = '';
-    this.pageSize = 20;
+    this.pageSize = 100;
 
     this.videos = videoService.getAllVideos(this.pageSize);
  }
