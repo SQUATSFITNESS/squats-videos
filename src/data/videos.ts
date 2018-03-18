@@ -172,5 +172,83 @@ export default [
     url: 'https://www.facebook.com/Anikethh/videos/g.141518356380042/10212512595946916/',
     postedBy: 'Aniketh Shetty',
     date: '2017-5-11'
+  },
+  {
+    description: 'Energy Balance',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1519273231465317/',
+    postedBy: 'Vishnu Mohan',
+    date: '2017-5-12'
+  },
+  {
+    description: 'Core Training: Lower Abs and Obliques.',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1835224093203561/',
+    postedBy: 'Rupesh Choudhury',
+    date: '2018-3-12'
+  },
+  {
+    description: 'Fitmag Q&A session',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1156748907800063/',
+    postedBy: 'JC',
+    date: '2017-11-19'
+  },
+  {
+    description: 'Fitmag Q&A session (Continued)',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1156774711130816/',
+    postedBy: 'JC',
+    date: '2017-11-19'
+  },
+  {
+    description: 'Diet Theory',
+    url: 'https://www.facebook.com/jitendra.chouksey.7/videos/g.823848317674482/1720833177929766',
+    postedBy: 'JC',
+    date: '2017-11-15'
+  },
+  {
+    description: 'Talking about everything Muscle growth and fat loss!',
+    url: 'https://www.facebook.com/campidell/videos/g.823848317674482/10214579967522703',
+    postedBy: 'Thomas Campidell',
+    date: '2017-12-9'
+  },
+  {
+    description: 'Supplementation',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1186458284829125/',
+    postedBy: 'Bala Krishna Reddy',
+    date: '2018-1-7'
+  },
+  {
+    description: 'Talking about Calories! What is maintenance, what is a calorie deficit/surplus?',
+    url: 'https://www.facebook.com/campidell/videos/g.823848317674482/10214897502820887',
+    postedBy: 'Thomas Campidell',
+    date: '2018-1-17'
+  },
+  {
+    description: '3 Common Food Tracking MIstakes! Talking about tracking calories, macros etc.',
+    url: 'https://www.facebook.com/campidell/videos/g.823848317674482/10214920762282359',
+    postedBy: 'Thomas Campidell',
+    date: '2018-1-20'
+  },
+  {
+    description: 'How to keep the results forever after your transformation',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1216391161835837/',
+    postedBy: 'Vinodh Vaitheeswaran',
+    date: '2018-2-22'
+  },
+  {
+    description: 'Weight Loss Plateau and Metabolism Q&A',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1227601504048136/',
+    postedBy: 'Anastasia Zinchenko',
+    date: '2018-3-10'
+  },
+  {
+    description: 'Fitmag Q&A Session',
+    url: 'https://www.facebook.com/fitmagmagazine/videos/1231984250276528/',
+    postedBy: 'Thomas Campidell',
+    date: '2018-3-16'
+  },
+  {
+    description: 'Q&A Session on Proteins',
+    url: 'https://www.facebook.com/menno.henselmans.9/videos/g.141518356380042/10213866029871712',
+    postedBy: 'Menno',
+    date: '2017-6-3'
   }
 ];
