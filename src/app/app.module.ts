@@ -5,10 +5,12 @@ import { MatButtonModule, MatSelectModule, MatInputModule, MatToolbarModule, Mat
 
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
+import { VideoComponent } from '../components/video/video.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideoComponent
   ],
   imports: [
     RouterModule.forRoot(
