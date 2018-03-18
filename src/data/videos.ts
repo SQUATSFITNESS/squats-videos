@@ -70,5 +70,83 @@ export default [
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1399327406793234/',
     postedBy: 'JC',
     date: '2017-1-25'
+  },
+  {
+    description: '- Busting some Myths. Body types. Diet considerations. How to start a diet , how to stay motivated. Calculating your macros (brief)',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1351197888272853/',
+    postedBy: 'JC',
+    date: '2016-12-9'
+  },
+  {
+    description: 'Sunday "Gyan" in hinglish',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1353827661343209/',
+    postedBy: 'JC',
+    date: '2016-12-11'
+  },
+  {
+    description: 'Macronutrients. Carbohydrates. (Hindi) session',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1366155283443780/',
+    postedBy: 'JC',
+    date: '2016-12-21'
+  },
+  {
+    description: 'Muscle fiber density, hypertrophy, hyperplasia, motor units, mind muscle connection',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1379929405399701/',
+    postedBy: 'JC',
+    date: '2017-1-5'
+  },
+  {
+    description: '2016- year in review. 2017- targets',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1376504609075514/',
+    postedBy: 'JC',
+    date: '2017-1-1'
+  },
+  {
+    description: 'Intermittent fasting - Hindi',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1364279263631382/',
+    postedBy: 'JC',
+    date: '2016-12-19'
+  },
+  {
+    description: 'T1D, T2D Diabetes/ Insulin/glucagon basics',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1396670880392220/',
+    postedBy: 'JC',
+    date: '2017-1-23'
+  },
+  {
+    description: 'Diet ! Why, when and how ?',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1421957601196881/',
+    postedBy: 'JC',
+    date: '2017-2-16'
+  },
+  {
+    description: 'Cardio for weight loss. Training protocol for men and women. Spot reduction',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1348519085207400/',
+    postedBy: 'JC',
+    date: '2016-12-7'
+  },
+  {
+    description: 'My 5 suggestions to you this year. 1. Do more with your life. 2. Find motivation within. 3. Don’t compare and criticise. 4. Think big and form a vision. 5. Commit goals, targets and demolish them',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1378263598899615/',
+    postedBy: 'JC',
+    date: '2017-1-3'
+  },
+  {
+    description: 'Fat metabolism',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1369054209820554/',
+    postedBy: 'JC',
+    date: '2016-12-24'
+  },
+  {
+    description: 'Protein storage. Protein quality scores. Minimal intake per meal. Anabolic window. Covered in Hindi',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1368206663238642/',
+    postedBy: 'JC',
+    date: '2016-12-23'
+  },
+  {
+    description: 'Things you should NOT do in the gym !',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1369131359812839/',
+    postedBy: 'JC',
+    date: '2016-12-24'
   }
 ];
