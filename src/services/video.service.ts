@@ -15,6 +15,12 @@ export class VideoService {
   }
 
   public searchVideos(searchText: string, pageSize: number): Video[] {
-    return data.filter(v => v.description.toLowerCase().indexOf(searchText.toLowerCase()) !== -1).map(v => new Video(v));
+    const search = searchText.toLowerCase();
+    return data.filter(v =>
+      v.description.toLowerCase().indexOf(search) !== -1 ||
+      v.url.toLowerCase().indexOf(search) !== -1 ||
+      v.postedBy.toLowerCase().indexOf(search) !== -1 ||
+      v.date.toLowerCase().indexOf(search) !== -1
+    ).map(v => new Video(v));
   }
 }
