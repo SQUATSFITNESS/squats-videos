@@ -11,7 +11,9 @@ export class VideoService {
   constructor() { }
 
   public getAllVideos(pageSize: number): Video[] {
-    return data.map(v => new Video(v));
+    return data
+      .sort((a, b) => { return a.date < b.date ? 1 : -1})
+      .map(v => new Video(v));
   }
 
   public searchVideos(searchText: string, pageSize: number): Video[] {
@@ -21,6 +23,8 @@ export class VideoService {
       v.url.toLowerCase().indexOf(search) !== -1 ||
       v.postedBy.toLowerCase().indexOf(search) !== -1 ||
       v.date.toLowerCase().indexOf(search) !== -1
-    ).map(v => new Video(v));
+    )
+      .sort((a, b) => { return a.date < b.date ? 1 : -1})
+      .map(v => new Video(v));
   }
 }
