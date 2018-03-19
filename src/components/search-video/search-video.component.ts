@@ -25,6 +25,10 @@ export class SearchVideoComponent implements OnInit {
   }
 
   search() {
-    this.videos = this.videoService.searchVideos(this.searchText, this.pageSize);
+    if(this.searchText === '') {
+      this.videos = this.videoService.getAllVideos(this.pageSize);
+    } else {
+      this.videos = this.videoService.searchVideos(this.searchText, this.pageSize);
+    }
   }
 }
