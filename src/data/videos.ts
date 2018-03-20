@@ -250,5 +250,11 @@ export default [
     url: 'https://www.facebook.com/menno.henselmans.9/videos/g.141518356380042/10213866029871712',
     postedBy: 'Menno',
     date: '2017-06-03'
+  },
+  {
+    description: 'Fitness trackers, What do we really know about them?',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1845398262186144',
+    postedBy: 'JC',
+    date: '2018-03-20'
   }
 ];
