@@ -10,12 +10,14 @@ import { VideoService } from '../services/video.service';
 import { appRoutes } from './app.routes';
 import { VideoComponent } from '../components/video/video.component';
 import { SearchVideoComponent } from '../components/search-video/search-video.component';
+import { HomeComponent } from '../components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoComponent,
-    SearchVideoComponent
+    SearchVideoComponent,
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 import {Video} from '../../models/video';
 import { VideoService } from '../../services/video.service';
 
@@ -9,26 +9,21 @@ import { VideoService } from '../../services/video.service';
   encapsulation: ViewEncapsulation.None
 })
 export class SearchVideoComponent implements OnInit {
-  public videos: Video[];
   public searchText: string;
 
-  private pageSize: number;
+  @Input()
+  public filterVideos;
 
-  constructor(private videoService: VideoService) {
+  constructor() {
     this.searchText = '';
-    this.pageSize = 100;
-
-    this.videos = videoService.getAllVideos(this.pageSize);
- }
+  }
 
   ngOnInit() {
   }
 
-  search() {
-    if(this.searchText === '') {
-      this.videos = this.videoService.getAllVideos(this.pageSize);
-    } else {
-      this.videos = this.videoService.searchVideos(this.searchText, this.pageSize);
+  onInputChange() {
+    if(this.filterVideos) {
+      this.filterVideos(this.searchText);
     }
   }
 }
