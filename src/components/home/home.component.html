@@ -1,8 +1,9 @@
 <mat-toolbar color="primary">
     <img src="../android-icon-36x36.png" alt="Squats Icon">
-    <span>S.Q.U.A.T.S. Videos</span>  
+    <span>S.Q.U.A.T.S. Videos</span>
 </mat-toolbar>
 
-<sqts-search-video [filterVideos]="fetchVideosList"></sqts-search-video>
+<sqts-search-video (fetchVideos)="fetchVideosList($event)">
+</sqts-search-video>
 
 <sqts-video *ngFor="let video of videos" [video]="video"></sqts-video>
