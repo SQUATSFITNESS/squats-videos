@@ -4,12 +4,10 @@ import { Video } from '../../models/video';
 @Component({
   selector: 'sqts-video',
   templateUrl: './video.component.html',
-  styleUrls: ['./video.component.css']
+  styleUrls: ['./video.component.scss']
 })
 export class VideoComponent implements OnInit {
   @Input() public video: Video;
-
-  constructor() {}
 
   ngOnInit() {}
 }
