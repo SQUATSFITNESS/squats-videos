@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+
 import { Video } from '../../models/video';
 import { VideoService } from '../../services/video.service';
 
