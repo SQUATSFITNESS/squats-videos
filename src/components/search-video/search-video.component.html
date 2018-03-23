@@ -1,5 +1,3 @@
 <mat-form-field class="search-box">
-    <input matInput placeholder="Search videos" (keyup)="search()" [(ngModel)]="searchText">
+    <input matInput placeholder="Search videos" (keyup)="onInputChange()" [(ngModel)]="searchText">
 </mat-form-field>
-
-<sqts-video *ngFor="let video of videos" [video]="video"></sqts-video>
