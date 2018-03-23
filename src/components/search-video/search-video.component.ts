@@ -1,5 +1,11 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import {Video} from '../../models/video';
+import {
+  Component,
+  OnInit,
+  ViewEncapsulation,
+  Output,
+  EventEmitter
+} from '@angular/core';
+import { Video } from '../../models/video';
 import { VideoService } from '../../services/video.service';
 
 @Component({
@@ -9,26 +15,17 @@ import { VideoService } from '../../services/video.service';
   encapsulation: ViewEncapsulation.None
 })
 export class SearchVideoComponent implements OnInit {
-  public videos: Video[];
   public searchText: string;
 
-  private pageSize: number;
+  @Output() fetchVideos: EventEmitter<string> = new EventEmitter();
 
-  constructor(private videoService: VideoService) {
+  constructor() {
     this.searchText = '';
-    this.pageSize = 100;
-
-    this.videos = videoService.getAllVideos(this.pageSize);
- }
-
-  ngOnInit() {
   }
 
-  search() {
-    if(this.searchText === '') {
-      this.videos = this.videoService.getAllVideos(this.pageSize);
-    } else {
-      this.videos = this.videoService.searchVideos(this.searchText, this.pageSize);
-    }
+  ngOnInit() {}
+
+  onInputChange() {
+    this.fetchVideos.emit(this.searchText);
   }
 }
