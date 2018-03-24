@@ -1,0 +1,21 @@
+@import './src/shared/styles/_units.scss';
+@import './src/shared/styles/_colors.scss';
+@import './src/shared/styles/_fonts.scss';
+
+:host {
+  margin: $space-xl;
+  display: inline-block;
+  min-width: 150px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.posted-by {
+  color: $brand-gray;
+  @include font-mixin(14px);
+}
+
+.date {
+  color: $brand-gray;
+  @include font-mixin(14px);
+}

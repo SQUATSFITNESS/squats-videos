@@ -1,0 +1,10 @@
+@import './src/shared/styles/_units.scss';
+@import './src/shared/styles/_colors.scss';
+
+.sqts-navigation-header {
+  background: $brand-primary;
+  .squats-logo {
+    border-radius: 50%;
+    margin-right: $space-sm;
+  }
+}
