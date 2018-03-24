@@ -1,0 +1,32 @@
+@import './src/shared/styles/_units.scss';
+@import './src/shared/styles/_colors.scss';
+@import './src/shared/styles/_fonts.scss';
+
+.search-box {
+  min-width: 150px;
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding: $space-sm;
+}
+
+.food-row {
+  width: 100%;
+}
+
+.add-button {
+  @include font-mixin(30px);
+  position: fixed !important;
+  bottom: 100px;
+  right: $space-xxl;
+  display: block;
+}
+
+.add-recipe {
+  @include font-mixin(30px);
+  position: fixed !important;
+  bottom: $space-xxl;
+  right: $space-xxl;
+  display: block;
+}
