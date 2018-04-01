@@ -256,5 +256,11 @@ export default [
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1845398262186144',
     postedBy: 'JC',
     date: '2018-03-20'
+  },
+  {
+    description: 'Ask me anything',
+    url: 'https://www.facebook.com/jitendra.chouksey.7/videos/1861959557150460',
+    postedBy: 'JC',
+    date: '2018-03-25'
   }
 ];
