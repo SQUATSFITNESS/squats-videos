@@ -36,12 +36,6 @@ export default [
     date: '2017-09-08'
   },
   {
-    description: 'Shoulder workout !',
-    url: 'https://www.facebook.com/groups/squatsjc/permalink/975712399154739/',
-    postedBy: 'JC',
-    date: '2015-06-17'
-  },
-  {
     description: 'Cellular oxidation, aerobic Vs anaerobic oxidation, VO2max , EPOC ( Hindi)',
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1372518739474101/',
     postedBy: 'JC',
@@ -78,7 +72,7 @@ export default [
     date: '2016-12-09'
   },
   {
-    description: 'Sunday "Gyan" in hinglish',
+    description: 'Sunday "Gyan" in hinglish. Why to become fit',
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1353827661343209/',
     postedBy: 'JC',
     date: '2016-12-11'
@@ -120,7 +114,7 @@ export default [
     date: '2017-02-16'
   },
   {
-    description: 'Cardio for weight loss. Training protocol for men and women. Spot reduction',
+    description: 'Cardio for weight loss. Training protocol for men and women. Spot reduction (English Session)',
     url: 'https://www.facebook.com/groups/squatsjc/permalink/1348519085207400/',
     postedBy: 'JC',
     date: '2016-12-07'
@@ -169,7 +163,7 @@ export default [
   },
   {
     description: 'Metabolic Damage and Reverse Dieting and their Correlation',
-    url: 'https://www.facebook.com/Anikethh/videos/g.141518356380042/10212512595946916/',
+    url: 'https://www.facebook.com/groups/infsbala/permalink/161190427746168/',
     postedBy: 'Aniketh Shetty',
     date: '2017-05-11'
   },
@@ -262,5 +256,155 @@ export default [
     url: 'https://www.facebook.com/jitendra.chouksey.7/videos/1861959557150460',
     postedBy: 'JC',
     date: '2018-03-25'
+  },
+  {
+    description: 'Overview of Weight Training',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1528201147239192/',
+    postedBy: 'Rupesh Choudhary',
+    date: '2017-05-09'
+  },
+  {
+    description: 'How to Continue With your Fitness Journey During Ramadan (Part 1)',
+    url: 'https://www.facebook.com/matin.shaikh.94/videos/1473325829356186/',
+    postedBy: 'Matin Sheikh',
+    date: '2017-05-20'
+  },
+  {
+    description: 'How to Continue With your Fitness Journey During Ramadan (Part 2)',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1529369697122337/',
+    postedBy: 'Matin Sheikh',
+    date: '2017-05-20'
+  },
+  {
+    description: 'How to Maintain Weight post Diet',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1529369697122337/',
+    postedBy: 'Aman Bindra',
+    date: '2017-05-27'
+  },
+  {
+    description: 'How to choose a gym nearby',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1537208693005104/',
+    postedBy: 'Rupesh Choudhary',
+    date: '2017-05-28'
+  },
+  {
+    description: 'Strength training Myths Busted',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1537625959630044/',
+    postedBy: 'Rishi Manuja',
+    date: '2017-05-28'
+  },
+  {
+    description: 'How to break plateaus',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1543724432353530/',
+    postedBy: 'Aniketh Shetty',
+    date: '2017-06-03'
+  },
+  {
+    description: 'Women and Weight Training',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1551285404930766/',
+    postedBy: 'Navdeep Chawla',
+    date: '2017-06-10'
+  },
+  {
+    description: 'Weight loss and the factors that affect it',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1558780374181269/',
+    postedBy: 'Dev Biswas',
+    date: '2017-06-17'
+  },
+  {
+    description: '"I can`t stick to a diet- Here`s why and what to do about it: - Balancing social life - Stress and emotional eating - Curb your cravings - Why not to keto - Understand what excites and motivates you - Digestive discomforts (constipation and diarrhea)"',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1566122470113726/',
+    postedBy: 'Trina Roy',
+    date: '2017-06-24'
+  },
+  {
+    description: 'Pyramid of Fat Loss Nutrition',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1533342133391760/',
+    postedBy: 'Dara Singh Handa',
+    date: '2017-07-01'
+  },
+  {
+    description: 'Q&A Session on Proteins',
+    url: 'https://www.facebook.com/groups/infsbala/permalink/188355881696289/',
+    postedBy: 'Menno',
+    date: '2017-07-03'
+  },
+  {
+    description: 'Evolution of Exercise and Weight Training',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1582040538521919/',
+    postedBy: 'Shanu Shashank',
+    date: '2017-07-08'
+  },
+  {
+    description: 'Nutrition Timing and Meal Frequency',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1589765331082773/',
+    postedBy: 'Lalitha Lakshman',
+    date: '2017-07-15'
+  },
+  {
+    description: 'Entrepreneurship',
+    url: 'https://www.facebook.com/jitendra.chouksey.7/videos/1623908924288859/',
+    postedBy: 'JC',
+    date: '2017-08-16'
+  },
+  {
+    description: 'How to Inprove your sleep',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1639614796097826/',
+    postedBy: 'Richie Hedderman',
+    date: '2017-09-03'
+  },
+  {
+    description: 'Training for muscle size vs. Training for muscle growth',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1644718748920764/',
+    postedBy: 'Anastasia Zinchenko',
+    date: '2017-09-09'
+  },
+  {
+    description: 'Few pointers and practical applications on what to do with your nutrition when you`re on vacation. ',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1645777138814925/',
+    postedBy: 'Thomas Campidell',
+    date: '2017-09-10'
+  },
+  {
+    description: 'Diet Theory',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1708146085911363/',
+    postedBy: 'JC',
+    date: '2017-11-15'
+  },
+  {
+    description: 'Talking about everything Muscle growth and fat loss!',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1733847920007846/',
+    postedBy: 'Thomas Campidell',
+    date: '2017-12-09'
+  },
+  {
+    description: 'Talking about Calories! What is maintenance, what is a calorie deficit/surplus?',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1773631639362807/',
+    postedBy: 'Thomas Campidell',
+    date: '2018-01-17'
+  },
+  {
+    description: '3 Common Food Tracking MIstakes! Talking about tracking calories, macros etc.',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1776650952394209/',
+    postedBy: 'Thomas Campidell',
+    date: '2018-01-20'
+  },
+  {
+    description: 'Funambulism Maintenance = BS ',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1783958568330114/',
+    postedBy: 'JC',
+    date: '2018-01-27'
+  },
+  {
+    description: 'Q&A Session',
+    url: 'https://www.facebook.com/jitendra.chouksey.7/videos/1861959557150460/',
+    postedBy: 'JC',
+    date: '2018-03-25'
+  },
+  {
+    description: 'Fitness trackers: What all they can track',
+    url: 'https://www.facebook.com/groups/squatsjc/permalink/1845398262186144/',
+    postedBy: 'JC',
+    date: '2018-03-20'
   }
 ];
